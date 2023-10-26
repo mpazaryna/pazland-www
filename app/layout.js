@@ -29,6 +29,17 @@ export default function RootLayout({ children }) {
             `
           }}
         />
+      <script id="sft-style-launcher" 
+        data-callout-text="Welcome to the chatbot."
+        data-callout-style="background-color: #FAFAD2; border-color: #FFD700; color: #000000;"
+        data-callout-fade-in="5"
+        data-callout-fade-out="15"
+        data-button-style="background-color: #fa8243;"
+        data-image-url="https://cdn.esnipe.com/chat-question-blue.png"
+        data-image-style="border-radius: 50%; width: 100%;"
+        src="https://voiceflow.seefusion.tech/style/launcher/build.js" 
+        type="text/javascript" defer>
+      </script> 
     </body>
     </html>
   )
