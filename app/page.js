@@ -1,6 +1,7 @@
+'use client'
 import Image from 'next/image'
 import Link from 'next/link';
-
+import { BubbleChat } from "flowise-embed-react";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
           Send Email
         </Link>
       </div>
+      <BubbleChat chatflowid="d99e2fe1-243c-4fff-aa91-2dccfc1bd263" apiHost="https://flowise-g57j.onrender.com" />
     </main>
   )
 }
