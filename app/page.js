@@ -35,7 +35,7 @@ export default function Home() {
           Send Email
         </Link>
       </div>
-      <BubbleChat chatflowid="d99e2fe1-243c-4fff-aa91-2dccfc1bd263" apiHost="https://flowise-g57j.onrender.com" />
+      <BubbleChat chatflowid="b8b2611a-fec3-410f-974e-2a2a3fbb40ff" apiHost="https://flowise-g57j.onrender.com" />
     </main>
   )
 }
